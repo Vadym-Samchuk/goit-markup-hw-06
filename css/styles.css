@@ -1076,7 +1076,7 @@ body {
     transition: transform var(--transition-duration) var(--timing-function);
 }
 
-/* .project .project-link:hover .item-overlay, */
+.project .project-link:hover .item-overlay,
 .project .project-link:focus .item-overlay {
     transform: translateY(0);
 }
@@ -1087,7 +1087,7 @@ body {
     color: var(--primary-white-color);
 }
 
-/* .project .project-link:hover, */
+.project .project-link:hover,
 .project .project-link:focus {
     box-shadow: var(--card-progect-shadow);
 }
